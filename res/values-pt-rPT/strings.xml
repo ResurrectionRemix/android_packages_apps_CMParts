@@ -139,6 +139,8 @@
   <string name="live_display_color_profile_reading_summary">Cores mais quentes para reduzir a fadiga ocular</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Cores precisas para o espaço de cor sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Cores precisas para o espaço de cor DCI-P3</string>
   <string name="color_calibration_title">Calibração de cores</string>
   <string name="color_calibration_summary">Calibrar as cores do ecrã</string>
   <string name="color_red_title">Vermelho</string>
@@ -223,7 +225,7 @@
   <string name="power_menu_title">Menu ligar/desligar</string>
   <string name="power_menu_reboot_title">Menu de reinicialização</string>
   <string name="power_menu_screenshot_title">Capturar ecrã</string>
-  <string name="power_menu_airplane_title">Modo de voo</string>
+  <string name="power_menu_airplane_title">Modo de avião</string>
   <string name="power_menu_users_title">Mudar utilizador</string>
   <string name="power_menu_settings_title">Atalho das definições</string>
   <string name="power_menu_lockdown_title">Bloqueio do dispositivo</string>
@@ -238,6 +240,12 @@
   <string name="camera_double_tap_power_gesture_desc">Abrir rapidamente a câmara sem desbloquear o ecrã</string>
   <string name="torch_long_press_power_gesture_title">Lanterna através de pressão longa</string>
   <string name="torch_long_press_power_gesture_desc">Ativar a lanterna através de pressão longa no botão de ligar/desligar quando o ecrã estiver desligado</string>
+  <string name="torch_long_press_power_timeout_title">Desligar automaticamente a lanterna</string>
+  <string name="torch_long_press_power_timeout_never">Nunca</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+  <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+  <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+  <string name="torch_long_press_power_timeout_10min">10 minutos</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Eliminar</string>
   <string name="profile_action_none">Deixar inalterado</string>
@@ -299,7 +307,7 @@
   <string name="rename_dialog_hint">Introduza o nome do perfil</string>
   <!-- Reset Profiles -->
   <string name="profile_reset_title">Repor</string>
-  <string name="profile_reset_message">Eliminar todos os perfis e grupos de aplicações criados e restaurar para o padrão?</string>
+  <string name="profile_reset_message">Eliminar todos os perfis e grupos de aplicações criados e repor a predefinição?</string>
   <!-- Delete confimation messages -->
   <string name="profile_app_delete_confirm">Remover esta aplicação?</string>
   <!-- Profile network mode -->
@@ -349,7 +357,7 @@
   <string name="profile_lockmode_policy_disabled_summary">Esta opção de perfil está desativada pela política do administrador do dispositivo</string>
   <string name="profile_lockmode_insecure_summary">Não pedir a palavra-passe nem PIN</string>
   <string name="profile_lockmode_disabled_summary">Desativar o ecrã de bloqueio</string>
-  <string name="profile_airplanemode_title">Modo de voo</string>
+  <string name="profile_airplanemode_title">Modo de avião</string>
   <string name="profile_brightness_title">Brilho do ecrã</string>
   <string name="profile_brightness_override_summary">Definido para %1$d%%</string>
   <string name="profile_brightness_override_checkbox_label">Substituir brilho</string>
@@ -377,12 +385,12 @@
   <!-- Status bar -->
   <string name="status_bar_title">Barra de estado</string>
   <string name="status_bar_quick_qs_pulldown_title">Puxar para baixo</string>
-  <string name="status_bar_quick_qs_pulldown_summary">O canto %1$s da barra de estado faz baixar o painel de definições rápidas</string>
+  <string name="status_bar_quick_qs_pulldown_summary">O %1$s da barra de estado faz baixar o painel de definições rápidas</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">canto esquerdo</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">canto direito</string>
   <string name="status_bar_quick_qs_pulldown_off">Desligado</string>
-  <string name="status_bar_quick_qs_pulldown_left">esquerdo</string>
-  <string name="status_bar_quick_qs_pulldown_right">direito</string>
-  <string name="status_bar_toggle_brightness">Controlo de brilho</string>
-  <string name="status_bar_toggle_brightness_summary">Ajustar o brilho deslizando através da barra de estado</string>
+  <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
+  <string name="status_bar_quick_qs_pulldown_right">Direita</string>
   <string name="status_bar_double_tap_to_sleep_title">Toque duplo para desligar ecrã</string>
   <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de estado para desligar o ecrã</string>
   <!-- Status bar - icons -->
@@ -415,6 +423,14 @@
   <string name="status_bar_battery_percentage_default">Oculta</string>
   <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
   <string name="status_bar_battery_percentage_text_next">Junto ao ícone</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Luminosidade</string>
+  <string name="status_bar_brightness_slider_title">Controlo deslizante de luminosidade</string>
+  <string name="status_bar_brightness_slider_summary">Ajustar a luminosidade nas definições rápidas</string>
+  <string name="status_bar_brightness_slider_auto_title">Luminosidade automática</string>
+  <string name="status_bar_brightness_slider_auto_summary">Mostrar ativador de luminosidade adaptável junto ao controlo deslizante de brilho</string>
+  <string name="status_bar_toggle_brightness">Controlo de brilho</string>
+  <string name="status_bar_toggle_brightness_summary">Ajustar o brilho deslizando através da barra de estado</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ícones da barra de estado</string>
   <string name="status_bar_icons_summary">Controlar que ícones da barra de estado são mostrados</string>

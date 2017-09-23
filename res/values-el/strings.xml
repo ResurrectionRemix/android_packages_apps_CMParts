@@ -139,6 +139,8 @@
   <string name="live_display_color_profile_reading_summary">Θερμότερα χρώματα για λιγότερη καταπόνηση των ματιών</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Απόδοση χρωμάτων με ακρίβεια στον χρωματικό χώρο sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Απόδοση χρωμάτων με ακρίβεια στον χρωματικό χώρο DCI-P3</string>
   <string name="color_calibration_title">Βελτίωση χρωμάτων</string>
   <string name="color_calibration_summary">Βελτίωση των χρωμάτων της οθόνης</string>
   <string name="color_red_title">Κόκκινο</string>
@@ -238,6 +240,12 @@
   <string name="camera_double_tap_power_gesture_desc">Γρήγορο άνοιγμα της φωτογραφικής μηχανής χωρίς ξεκλείδωμα οθόνης</string>
   <string name="torch_long_press_power_gesture_title">Παρατεταμένη πίεση για φακό</string>
   <string name="torch_long_press_power_gesture_desc">Ενεργοποιήστε το φακό πατώντας παρατεταμένα το πλήκτρο ισχύος όταν η οθόνη είναι ανενεργή</string>
+  <string name="torch_long_press_power_timeout_title">Αυτόματη απενεργοποίηση φακού</string>
+  <string name="torch_long_press_power_timeout_never">Ποτέ</string>
+  <string name="torch_long_press_power_timeout_1min">1 λεπτό</string>
+  <string name="torch_long_press_power_timeout_2min">2 λεπτά</string>
+  <string name="torch_long_press_power_timeout_5min">5 λεπτά</string>
+  <string name="torch_long_press_power_timeout_10min">10 λεπτά</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Διαγραφή</string>
   <string name="profile_action_none">Να μη γίνει αλλαγή</string>
@@ -378,11 +386,11 @@
   <string name="status_bar_title">Γραμμή κατάστασης</string>
   <string name="status_bar_quick_qs_pulldown_title">Γρήγορο τράβηγμα</string>
   <string name="status_bar_quick_qs_pulldown_summary">Τραβώντας προς τα κάτω την %1$s άκρη της γραμμής κατάστασης εμφανίζονται οι Γρήγορες ρυθμίσεις</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Αριστερά</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Δεξιά</string>
   <string name="status_bar_quick_qs_pulldown_off">Απενεργοποιημένη</string>
   <string name="status_bar_quick_qs_pulldown_left">Αριστερά</string>
   <string name="status_bar_quick_qs_pulldown_right">Δεξιά</string>
-  <string name="status_bar_toggle_brightness">Έλεγχος φωτεινότητας</string>
-  <string name="status_bar_toggle_brightness_summary">Επιτρέπει τον έλεγχο της φωτεινότητας με ολίσθιση στη γραμή κατάστασης</string>
   <string name="status_bar_double_tap_to_sleep_title">Διπλό χτύπημα για αναστολή</string>
   <string name="status_bar_double_tap_to_sleep_summary">Διπλό χτύπημα στη γραμμή κατάστασης για αναστολή της συσκευής</string>
   <!-- Status bar - icons -->
@@ -415,6 +423,14 @@
   <string name="status_bar_battery_percentage_default">Κρυφό</string>
   <string name="status_bar_battery_percentage_text_inside">Μέσα στο εικονίδιο</string>
   <string name="status_bar_battery_percentage_text_next">Δίπλα στο εικονίδιο</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Φωτεινότητα</string>
+  <string name="status_bar_brightness_slider_title">Ρυθμιστικό φωτεινότητας</string>
+  <string name="status_bar_brightness_slider_summary">Ρύθμιση φωτεινότητας από τις Γρήγορες ρυθμίσεις</string>
+  <string name="status_bar_brightness_slider_auto_title">Αυτόματη φωτεινότητα</string>
+  <string name="status_bar_brightness_slider_auto_summary">Εμφάνιση διακόπτη για προσαρμοστική φωτεινότητα δίπλα στο ρυθμιστικό</string>
+  <string name="status_bar_toggle_brightness">Έλεγχος φωτεινότητας</string>
+  <string name="status_bar_toggle_brightness_summary">Επιτρέπει τον έλεγχο της φωτεινότητας με ολίσθιση στη γραμή κατάστασης</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Εικονίδια γραμμής κατάστασης</string>
   <string name="status_bar_icons_summary">Ελέγξτε ποια εικονίδια θα εμφανίζονται στη γραμμή κατάστασης</string>

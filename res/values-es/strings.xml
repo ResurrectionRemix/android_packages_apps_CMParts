@@ -103,7 +103,7 @@
   <!-- Lights settings, LED notification -->
   <string name="led_notification_title">Ajustes de luz</string>
   <string name="led_notification_text">Luz LED habilitada por la configuración</string>
-  <string name="notification_light_no_apps_summary">Para añadir control por aplicación, activa \'%1$s\' y pulsa \'\u002b\' en la barra de menús</string>
+  <string name="notification_light_no_apps_summary">Para añadir control por aplicación, activa «%1$s» y pulsa «\u002b» en la barra de menús</string>
   <!-- LiveDisplay -->
   <string name="live_display_summary">Optimizar su pantalla basada en la hora del día y las condiciones ambientales para mejorar la legibilidad y reducir la fatiga visual</string>
   <string name="live_display_mode">Modo de visualización</string>
@@ -139,6 +139,8 @@
   <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Colores fieles al espacio de color sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
   <string name="color_calibration_title">Calibración de color</string>
   <string name="color_calibration_summary">Calibrar los colores de la pantalla</string>
   <string name="color_red_title">Rojo</string>
@@ -216,7 +218,7 @@
   <string name="navigation_bar_left_summary">Situar la barra de navegación a la izquierda de la pantalla en el modo horizontal</string>
   <string name="navigation_bar_arrow_keys_title">Mostrar flechas al escribir</string>
   <string name="navigation_bar_arrow_keys_summary">Mostrar los cursores izquierda y derecha durante la escritura. Modifica al selector IME.</string>
-  <string name="navigation_bar_home_long_press_title">Acción de pulsación larga de inicio</string>
+  <string name="navigation_bar_home_long_press_title">Acción de pulsación larga en inicio</string>
   <string name="navigation_bar_home_double_tap_title">Acción de doble toque en inicio</string>
   <string name="navigation_bar_recents_title">Acción de pulsación larga en recientes</string>
   <!-- Power menu -->
@@ -238,6 +240,12 @@
   <string name="camera_double_tap_power_gesture_desc">Abrir rápidamente la cámara sin desbloquear la pantalla</string>
   <string name="torch_long_press_power_gesture_title">Mantenega pulsado para activar la linterna</string>
   <string name="torch_long_press_power_gesture_desc">Mantenga pulsado el botón de encendido para activar la linterna cuando la pantalla esté apagada</string>
+  <string name="torch_long_press_power_timeout_title">Apagar automáticamente la linterna</string>
+  <string name="torch_long_press_power_timeout_never">Nunca</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+  <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+  <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+  <string name="torch_long_press_power_timeout_10min">10 minutos</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Borrar</string>
   <string name="profile_action_none">Dejar sin cambios</string>
@@ -378,11 +386,11 @@
   <string name="status_bar_title">Barra de estado</string>
   <string name="status_bar_quick_qs_pulldown_title">Despliegue rápido</string>
   <string name="status_bar_quick_qs_pulldown_summary">Deslice a la %1$s de la barra de estado para desplegar el panel de ajustes rápidos</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Izquierda</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Derecha</string>
   <string name="status_bar_quick_qs_pulldown_off">Desactivado</string>
   <string name="status_bar_quick_qs_pulldown_left">Izquierda</string>
   <string name="status_bar_quick_qs_pulldown_right">Derecha</string>
-  <string name="status_bar_toggle_brightness">Ajuste de brillo</string>
-  <string name="status_bar_toggle_brightness_summary">Ajustar el brillo deslizando a través de la barra de estado</string>
   <string name="status_bar_double_tap_to_sleep_title">Doble toque para suspender</string>
   <string name="status_bar_double_tap_to_sleep_summary">Doble toque en la barra de estado para apagar la pantalla</string>
   <!-- Status bar - icons -->
@@ -415,6 +423,14 @@
   <string name="status_bar_battery_percentage_default">Oculto</string>
   <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
   <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Brillo</string>
+  <string name="status_bar_brightness_slider_title">Barra de brillo</string>
+  <string name="status_bar_brightness_slider_summary">Ajuste el brillo desde los ajustes rápidos</string>
+  <string name="status_bar_brightness_slider_auto_title">Brillo automático</string>
+  <string name="status_bar_brightness_slider_auto_summary">Mostrar el interruptor de brillo automático al lado de la barra de brillo</string>
+  <string name="status_bar_toggle_brightness">Ajuste de brillo</string>
+  <string name="status_bar_toggle_brightness_summary">Ajustar el brillo deslizando a través de la barra de estado</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Iconos de la barra de estado</string>
   <string name="status_bar_icons_summary">Elija los iconos que aparecerán en la barra de estado</string>
@@ -523,18 +539,18 @@
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar hacia abajo con un dedo</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar hacia la izquierda con un dedo</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar a la derecha con un dedo</string>
-  <string name="touchscreen_gesture_up_arrow_title">Dibujar un \"Λ\"</string>
-  <string name="touchscreen_gesture_down_arrow_title">Dibuja una \"V\"</string>
-  <string name="touchscreen_gesture_left_arrow_title">Dibujar un \"&lt;\"</string>
-  <string name="touchscreen_gesture_right_arrow_title">Dibujar un \"&gt;\"</string>
-  <string name="touchscreen_gesture_letter_c_title">Dibujar la letra \"C\"</string>
-  <string name="touchscreen_gesture_letter_e_title">Dibujar la letra \"e\"</string>
-  <string name="touchscreen_gesture_letter_o_title">Dibujar la letra \"O\"</string>
-  <string name="touchscreen_gesture_letter_m_title">Dibujar la letra \"M\"</string>
-  <string name="touchscreen_gesture_letter_s_title">Dibujar la letra \"S\"</string>
-  <string name="touchscreen_gesture_letter_v_title">Dibuje la letra \"V\"</string>
-  <string name="touchscreen_gesture_letter_w_title">Dibujar la letra \"W\"</string>
-  <string name="touchscreen_gesture_letter_z_title">Dibujar la letra \"Z\"</string>
+  <string name="touchscreen_gesture_up_arrow_title">Dibujar un «Λ»</string>
+  <string name="touchscreen_gesture_down_arrow_title">Dibuja una «V»</string>
+  <string name="touchscreen_gesture_left_arrow_title">Dibujar un «&lt;»</string>
+  <string name="touchscreen_gesture_right_arrow_title">Dibujar un «&gt;»</string>
+  <string name="touchscreen_gesture_letter_c_title">Dibujar la letra «C»</string>
+  <string name="touchscreen_gesture_letter_e_title">Dibujar la letra «e»</string>
+  <string name="touchscreen_gesture_letter_o_title">Dibujar la letra «O»</string>
+  <string name="touchscreen_gesture_letter_m_title">Dibujar la letra «M»</string>
+  <string name="touchscreen_gesture_letter_s_title">Dibujar la letra «S»</string>
+  <string name="touchscreen_gesture_letter_v_title">Dibuje la letra «V»</string>
+  <string name="touchscreen_gesture_letter_w_title">Dibujar la letra «W»</string>
+  <string name="touchscreen_gesture_letter_z_title">Dibujar la letra «Z»</string>
   <string name="touchscreen_gesture_action_dialog_title">Acción del gesto</string>
   <string name="touchscreen_gesture_action_do_nothing">No hacer nada</string>
   <string name="touchscreen_gesture_action_flashlight">Activar/Desactivar linterna</string>

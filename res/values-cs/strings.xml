@@ -139,6 +139,8 @@
   <string name="live_display_color_profile_reading_summary">Teplejší barvy pro menší namáhání očí</string>
   <string name="live_display_color_profile_srgb_title">sRGB</string>
   <string name="live_display_color_profile_srgb_summary">Barvy s přesností na barevný prostor sRGB</string>
+  <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+  <string name="live_display_color_profile_dci_p3_summary">Barvy s přesností na barevný prostor DCI-P3</string>
   <string name="color_calibration_title">Kalibrace barev</string>
   <string name="color_calibration_summary">Kalibrovat barvy obrazovky</string>
   <string name="color_red_title">Červená</string>
@@ -238,6 +240,12 @@
   <string name="camera_double_tap_power_gesture_desc">Rychle otevře fotoaparát bez odemknutí obrazovky</string>
   <string name="torch_long_press_power_gesture_title">Dlouhým stiskem zapnout svítilnu</string>
   <string name="torch_long_press_power_gesture_desc">Dlouhým stiskem tlačítka napájení při vypnuté obrazovce zapnout svítilnu</string>
+  <string name="torch_long_press_power_timeout_title">Automatické vypnutí svítilny</string>
+  <string name="torch_long_press_power_timeout_never">Nikdy</string>
+  <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+  <string name="torch_long_press_power_timeout_2min">2 minuty</string>
+  <string name="torch_long_press_power_timeout_5min">5 minut</string>
+  <string name="torch_long_press_power_timeout_10min">10 minut</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Smazat</string>
   <string name="profile_action_none">Ponechat nezměněné</string>
@@ -378,11 +386,11 @@
   <string name="status_bar_title">Stavová lišta</string>
   <string name="status_bar_quick_qs_pulldown_title">Rychlé stažení nabídky</string>
   <string name="status_bar_quick_qs_pulldown_summary">Tažením dolů z %1$s strany stavové lišty se vysune rychlé nastavení</string>
+  <string name="status_bar_quick_qs_pulldown_summary_left">Vlevo</string>
+  <string name="status_bar_quick_qs_pulldown_summary_right">Vpravo</string>
   <string name="status_bar_quick_qs_pulldown_off">Vypnuto</string>
   <string name="status_bar_quick_qs_pulldown_left">levé</string>
   <string name="status_bar_quick_qs_pulldown_right">pravé</string>
-  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
-  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <string name="status_bar_double_tap_to_sleep_title">Dvojitým poklepáním uspat</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dvojitým poklepáním na stavový řádek vypnout obrazovku</string>
   <!-- Status bar - icons -->
@@ -415,6 +423,14 @@
   <string name="status_bar_battery_percentage_default">Skryté</string>
   <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
   <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
+  <!-- Status bar - Brightness -->
+  <string name="status_bar_brightness_category">Jas</string>
+  <string name="status_bar_brightness_slider_title">Posuvník jasu</string>
+  <string name="status_bar_brightness_slider_summary">Upravte jas z rychlého nastavení</string>
+  <string name="status_bar_brightness_slider_auto_title">Automatický jas</string>
+  <string name="status_bar_brightness_slider_auto_summary">Zobrazit přepínač pro automatický jas poblíž posuvníku</string>
+  <string name="status_bar_toggle_brightness">Ovládání jasu</string>
+  <string name="status_bar_toggle_brightness_summary">Umožňuje nastavit jas tažením prstu na stavové liště</string>
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikony stavové lišty</string>
   <string name="status_bar_icons_summary">Upravit zobrazení ikon na stavové liště</string>
